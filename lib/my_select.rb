@@ -1,7 +1,7 @@
-def my_select(array)
+def my_select(collection)
   i = 0
   select = []
-  while i < array.length
+  while i < array.size
     if yield(array[i])
       select << array[i]
     end
